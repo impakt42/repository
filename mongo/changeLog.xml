@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mongoChangeLog>
+    <changeSet changeId="ChangeSet-1" author="dim">
+        <script>
+            db.products.insert({"product": {"designation":"Serpico", "type":"K7", "price":"10", "genre":"Policier", "realisateur":"Sidney Lumet", "annee":"1973"}});
+        </script>
+    </changeSet>
+</mongoChangeLog>

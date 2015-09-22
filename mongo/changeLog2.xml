@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mongoChangeLog>
+    <changeSet changeId="ChangeSet-1" author="dim">
+        <script>
+            db.products.insert({"product": {"designation":"Gorille dans la brume", "type":"K7", "price":"10", "genre":"Drame", "realisateur":"Michael Apted", "annee":"1988"}});            
+        </script>
+    </changeSet>
+</mongoChangeLog>
